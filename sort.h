@@ -41,5 +41,7 @@ size_t size);
 /* advanced tasks sorting algorithm functions */
 void shell_sort(int *array, size_t size);
 void _swap(int *array, int c, int k);
+void cocktail_sort_list(listint_t **list);
+void swap_nodes(listint_t **node, listint_t **list);
 
 #endif
