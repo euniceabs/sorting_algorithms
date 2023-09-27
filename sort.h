@@ -8,7 +8,7 @@
 
 
 /**
- * struct listint_s - function of doubly linked list node
+ * struct listint_s - Doubly linked list node
  *
  * @n: integer stored in the node
  * @prev: pointer to the previous element of the list
