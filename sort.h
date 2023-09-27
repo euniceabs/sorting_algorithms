@@ -7,11 +7,11 @@
 
 
 /**
- * struct listint_s - Doubly linked list node
+ * struct listint_s - function of doubly linked list node
  *
- * @n: Integer stored in the node
- * @prev: Pointer to the previous element of the list
- * @next: Pointer to the next element of the list
+ * @n: integer stored in the node
+ * @prev: pointer to the previous element of the list
+ * @next: pointer to the next element of the list
  */
 typedef struct listint_s
 {
@@ -43,5 +43,12 @@ void shell_sort(int *array, size_t size);
 void _swap(int *array, int c, int k);
 void cocktail_sort_list(listint_t **list);
 void swap_nodes(listint_t **node, listint_t **list);
+void counting_sort(int *array, size_t size);
+void merge_sort(int *array, size_t size);
+void heap_sort(int *array, size_t size);
+void radix_sort(int *array, size_t size);
+void bitonic_sort(int *array, size_t size);
+void quick_sort_hoare(int *array, size_t size);
+void sort_deck(deck_node_t **deck);
 
 #endif
